@@ -1,5 +1,5 @@
 
-package programacion2_torresgabriel_tp;
+package programacion2_torresgabriel_tp.Tp1;
 import java.util.Scanner;
 
 public class P2_TorresGabriel_TrabajoPractico_nro1 {
@@ -7,8 +7,9 @@ public class HolaMundo{
    
 }
     public static void main(String[] args) {
+        System.out.println((true || false) && false);
         //Ejercicio2
-        System.out.println("Hola, Java!");
+        //System.out.println("Hola, Java!");
         
         //Ejercicio3
         /*String nombre = "Gabriel";
@@ -53,7 +54,7 @@ public class HolaMundo{
         
         //Ejercicio 8
         
-        /*
+        
         Scanner sc = new Scanner (System.in);
         int primerNro;
         int segundoNro;
@@ -66,7 +67,7 @@ public class HolaMundo{
         
         System.out.println("La division con int es igual a " + div);
         System.out.println("La division con double es igual a " + division);
-        */
+        
         
         //Ejercicio 9
         /*9. Corrige el siguiente código para que funcione correctamente. Explica qué error 
@@ -94,6 +95,7 @@ public class HolaMundo{
 }       
 }*/
         
+               
     }
     
 }
