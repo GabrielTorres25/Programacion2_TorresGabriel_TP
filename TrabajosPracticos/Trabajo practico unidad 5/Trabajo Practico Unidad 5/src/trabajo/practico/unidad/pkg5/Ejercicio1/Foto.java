@@ -1,4 +1,4 @@
-package trabajo.practico.unidad.pkg5;
+package trabajo.practico.unidad.pkg5.Ejercicio1;
 
 
 public class Foto {

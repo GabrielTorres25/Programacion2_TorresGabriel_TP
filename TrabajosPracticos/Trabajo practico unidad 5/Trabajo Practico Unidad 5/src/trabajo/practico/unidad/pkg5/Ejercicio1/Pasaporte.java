@@ -1,7 +1,7 @@
-package trabajo.practico.unidad.pkg5;
+package trabajo.practico.unidad.pkg5.Ejercicio1;
 
 
-import trabajo.practico.unidad.pkg5.Foto;
+import trabajo.practico.unidad.pkg5.Ejercicio1.Foto;
 
 
     public class Pasaporte {
@@ -32,6 +32,10 @@ import trabajo.practico.unidad.pkg5.Foto;
         return numero;
     }
   
+    
+    
    
 }
+
+
 
