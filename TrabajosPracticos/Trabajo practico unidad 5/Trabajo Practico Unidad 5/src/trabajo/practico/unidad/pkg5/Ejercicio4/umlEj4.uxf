@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>330</x><y>480</y><w>280</w><h>170</h></coordinates><panel_attributes>Banco
+-
+-nombre: String;
+-cuit: String;
+-
++Banco(nombre: String, cuit: String); 
++getNombre(): String; 
++setNombre(nombre: String): void; 
++getCuit(): String; 
++setCuit(cuit: String): void; 
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>130</y><w>280</w><h>200</h></coordinates><panel_attributes>TarjetaDeCredito
+-
+-numero: int;
+-fechaVencimiento: String;
+-cliente: Cliente;
+-banco: Banco;
+-
++TarjetaDeCredito(numero: int, fechaVencimiento: String); 
++getCliente(): Cliente; 
++setCliente(cliente: Cliente): void; 
++getBanco(): Banco; 
++setBanco(banco: Banco): void; 
++mostrarDatos(): void; 
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>150</y><w>280</w><h>170</h></coordinates><panel_attributes>Cliente
+-
+-nombre: String; 
+-dni: int;
+-tc: TarjetaDeCredito;
+-
++Cliente(nombre: String, dni: int); 
++getTc(): TarjetaDeCredito; 
++setTc(tc: TarjetaDeCredito): void; 
++mostrarDatos(): void; 
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>200</y><w>280</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1..*
+</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>320</y><w>230</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;160</additional_attributes></element></diagram>

@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>170</y><w>360</w><h>130</h></coordinates><panel_attributes>Usuario
+-
+-nombre: String; 
+-email: String; 
+-
++Usuario(nombre: String, email: String); 
++getNombre(): String;
++getEmail(): String;
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>190</y><w>310</w><h>80</h></coordinates><panel_attributes>GeneradorQR
+-
++ generar(valor: String, usuario: Usuario): CodigoQR; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>530</y><w>360</w><h>130</h></coordinates><panel_attributes>CodigoQR
+-
+-valor: String; 
+-usuario: Usuario; 
+-
++CodigoQR(valor: String, usuario: Usuario); 
++getValor(): String;
++getUsuario(): Usuario; 
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>290</y><w>180</w><h>260</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;160;240</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>260</y><w>130</w><h>290</h></coordinates><panel_attributes>lt=&lt;.
+Create</panel_attributes><additional_attributes>10;270;110;10</additional_attributes></element></diagram>

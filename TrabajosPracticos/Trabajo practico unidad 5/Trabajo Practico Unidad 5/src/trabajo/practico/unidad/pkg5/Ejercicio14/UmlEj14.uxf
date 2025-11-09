@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>580</x><y>320</y><w>330</w><h>80</h></coordinates><panel_attributes>EditorVideo
+-
++ exportar(formato: String, proyecto: Proyecto): Render; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>580</y><w>360</w><h>130</h></coordinates><panel_attributes>Proyecto
+-
+-nombre: String; 
+-duracionMin: String; 
+-
++Proyecto(nombre: String, duracion: String); 
++getNombre(): String;
++getDuracionMin(): String;
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>100</y><w>360</w><h>130</h></coordinates><panel_attributes>Render
+-
+-formato: String;  
+-proyecto: Proyecto; 
+-
++Render(formato: String, proyecto: Proyecto); 
++getFormato(): String;
++getProyecto(): Proyecto;
++toString(): String; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>220</y><w>40</w><h>380</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;360;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>350</y><w>240</w><h>250</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;230;220;10</additional_attributes></element></diagram>

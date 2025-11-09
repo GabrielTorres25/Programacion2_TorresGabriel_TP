@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>140</x><y>160</y><w>290</w><h>240</h></coordinates><panel_attributes>Reserva
+-
+-fecha: String;
+-hora: String;
+-cliente: ClienteEj6;
+-mesa: Mesa; 
+-
++Reserva(fecha: String, hora: String, mesa: Mesa); 
++setCliente(cliente: ClienteEj6): void; 
++mostrarReserva(): void; 
++getFecha(): String; 
++getHora(): String; 
++getCliente(): ClienteEj6;
++getMesa(): Mesa;  
++toString(): String; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>180</y><w>290</w><h>130</h></coordinates><panel_attributes>Mesa
+-
+-numero: int;
+-capacidad: int;
+-
++Mesa(numero: int, capacidad:int);
++getNumero(): int;
++getCapacidad(): int; 
++toString(): String; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>570</y><w>290</w><h>130</h></coordinates><panel_attributes>ClienteEj6
+-
+-nombre: String;
+-telefono: int;
+-
++ClienteEj6(nombre: String, telefono: int); 
++getNombre(): String;
++getTelefono(): int;
++toString(): String; </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>390</y><w>190</w><h>200</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>170;180;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>240</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element></diagram>
