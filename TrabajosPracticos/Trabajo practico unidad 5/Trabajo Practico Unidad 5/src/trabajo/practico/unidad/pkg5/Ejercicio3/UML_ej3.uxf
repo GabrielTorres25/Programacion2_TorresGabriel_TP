@@ -4,7 +4,7 @@
 -isbn: String
 -autor: Autor
 -editorial: Editorial
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>Editor
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>Editorial
 -
 -nombre: String
 -direccion: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>Autor
