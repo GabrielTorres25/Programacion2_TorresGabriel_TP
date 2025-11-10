@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>60</x><y>150</y><w>290</w><h>130</h></coordinates><panel_attributes>Motor
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>60</x><y>76</y><w>290</w><h>130</h></coordinates><panel_attributes>Motor
 -
 -tipo: String;
 -numeroSerie: int;
@@ -6,7 +6,7 @@
 +Motor(tipo: String, numeroSerie: int); 
 +getTipo(): String;
 +getNumeroSerie(): int;
-+toString(): String; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>110</y><w>290</w><h>200</h></coordinates><panel_attributes>Conductor
++toString(): String; </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>36</y><w>290</w><h>200</h></coordinates><panel_attributes>Conductor
 -
 -nombre: String; 
 -licencia: String;
@@ -19,7 +19,7 @@
 +getVehiculo(): Vehiculo;
 +mostrarConductor(): void; 
 +toString(): String; 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>590</y><w>340</w><h>220</h></coordinates><panel_attributes>Vehiculo
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>516</y><w>340</w><h>220</h></coordinates><panel_attributes>Vehiculo
 -
 -patente: String; 
 -modelo: String;
@@ -34,7 +34,7 @@
 +getMotor(): Motor; 
 +mostrarAuto(): void; 
 +toString(): String; 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>270</y><w>200</w><h>340</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>180;320;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>300</y><w>190</w><h>310</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>196</y><w>200</w><h>340</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>180;320;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>226</y><w>190</w><h>310</h></coordinates><panel_attributes>lt=-
 m1=0..1
 m2=0..1
 </panel_attributes><additional_attributes>10;290;160;10</additional_attributes></element></diagram>
